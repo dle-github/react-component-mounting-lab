@@ -11,8 +11,10 @@ class App extends Component {
 
 
   //Your code here:
-
-
+  componentDidMount() {
+    console.log('didmount')
+    this.handleAddTimer()
+  }
 
 
 
